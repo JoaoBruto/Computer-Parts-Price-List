@@ -28,7 +28,7 @@ gabinete_preco = ()
 
 time.sleep(2)
 
-#Usuário irá enviar os dados e esperar a saida.
+#Usuário irá enviar os dados e esperar a saida.(User will send the data and wait for the exit.)
 resposta = bool("Sim")
 while resposta:
     placa_de_video.append(input("Digite a placa de vídeo: "))
@@ -58,7 +58,7 @@ while resposta:
     
 
 
-    for placa_de_video in placa_de_video: # => saída  
+    for placa_de_video in placa_de_video: # => saída (exit) 
         print("A sua placa de vídeo escolhida foi: ",placa_de_video, "e seu preço é: R$",placa_de_video_preco)
 
     for processador in processador:
